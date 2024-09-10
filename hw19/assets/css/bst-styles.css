@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 1.2em;
+	font-family: Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: Georgia, "serif"
+}
+
+.navbar {
+	font-size: 1.2em;
+	font-family: Cambria, "serif";
+}
+
+.jumbotron-cus {
+	background-color: #861657;
+	color: floralwhite;
+}
+
+.con-bg {
+	background-color: white;
+	padding: 20px;
+	padding-bottom: 10px;
+	min-height: 95vh;
+}
+
+.blog-indent {
+	padding: 0px 20px 0px 20px;
+}
+
+.header-pad {
+	padding-bottom: 20px;
+}
+
+.border {
+	border-style: groove;
+	border-width: thin;
+	border-color: #3B7080;
+}
+
+.titles {
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+.titles li:hover{
+	color: #3B7080;
+	font-weight: bold;
+}
+
+.fixed-panel {
+  min-height: 450px;
+  max-height: 450px;
+}
+
+.fixed-panel li:first-child{
+	height:250px;
+	width:inherit;
+}
+
+.fixed-panel li:last-child{
+	height:150px;
+	width:inherit;
+}
+
+.fixed-scroll {
+	overflow-y: scroll;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.fill img {
+	flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.img-pad {
+	padding: 10px;
+}
+
+.body-grad-bg {
+	min-height: 100vh;
+	background-image: linear-gradient(#93E1D8, #DDFFF7);
+	background-repeat: no-repeat;
+}
+
+.cus-form {
+	padding: 40px;
+}
+
+.alert {
+	margin-top: 5px;
+}
+
+.sub-button {
+	background-color: #387b9c;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 15px;
+	font-weight: bold;
+}
+
+.cform-head td{
+	background-color: #861657;
+	color: floralwhite;
+	border-color: #3A0926;
+	text-align: center;
+	font-weight: bold;
+}
+
+.cform-body td{
+	border-color: #861657;
+}
+
+.cform-body tr:hover {
+	background-color: #ffa69e;
+	font-weight: bold;
+}
+
+.cform-body td, .cform-head td{
+	border-style: groove;
+	border-width: thin;
+	padding: 10px 20px;
+}
+
+textarea { resize: vertical; }
